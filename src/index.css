@@ -1,0 +1,218 @@
+/*========== GOGGLE FONTS  RUBIK   ==========*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+
+/*========== VARIABLES CSS ==========*/
+:root {
+  /* --header-height: 3rem; */
+
+  /*========== COLORS ==========*/
+  /*Colors mode HSL(hue, saturation, lightness)*/
+  --hue: 0;
+  --sat: 0%;
+  --logo-color: hsl(var(--hue), var(--sat), 20%);
+  --first-color: hsl(353, 100%, 65%);
+  --title-color: hsl(244, 24%, 26%);
+  --text-color: hsl(244, 16%, 43%);
+  --body-color: hsl(258, 60%, 98%);
+  --container-color: #fff;
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Rubik', sans-serif;
+  
+  /*.5rem = 8px |  1rem = 16px ...*/
+  /* --big-font-size: 3.5rem; */
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+  --tiny-font-size: 0.625rem;
+
+  /*========== Font Weight ==========*/
+  --font-400: 400;
+  --font-500: 500;
+  --font-600: 600;
+  --font-700: 700;
+  --font-800: 800;
+  --font-900: 900;
+  
+  /*========== Font Weight ==========*/
+  --shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
+  
+  /*========== Font Weight ==========*/
+  --border-radius: 20px;
+
+
+  /*========== Margenes Bottom ==========*/
+  /*.5rem = 8px |  1rem = 16px ...*/
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /*========== Z-Index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/*  Responsive typograhpy  */
+@media screen and (max-width: 1024px) {
+  :root {
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+}
+
+
+
+/*=========== BASE ============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  line-height: 1.7;
+  color: var(--text-color);
+}
+
+h1, h2, h3 {
+  color: var(--title-color);
+  font-weight: var(--font-600);
+  line-height: 1.2;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+
+
+/*========== REUSABLE CSS CLASSES ==========*/
+.section {
+  padding-top: 8rem;
+  padding-bottom: 7rem;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  margin-left: 0.875rem;
+  font-weight: var(--font-700);
+  position: relative;
+  margin-bottom: 3.75rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .section__title {
+    align-self: center;
+  }
+}
+
+.section__title::before {
+  content: '';
+  background: url(./assets/dots-bg.svg);
+  height: 2.25rem;
+  width: 2.25rem;
+  position: absolute;
+  left: -0.875rem;
+  top: -0.875rem;
+}
+
+
+.btn {
+  padding: 0.75rem 2rem;
+  background-color: var(--first-color);
+  line-height: 1;
+  border-radius: 1.875rem;
+  /* box-shadow: 0 0 1px rgb(0 0 0 / 0%); */
+  box-shadow: var(--shadow);
+  border: 1px solid transparent;
+  color: #fff;
+  display: inline-block;
+  font-weight: var(--font-500);
+}
+
+@media screen and (min-width: 800px) {
+  /* @keyframes button-push {
+    50% {
+      transform: scale(0.8);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  } */
+  
+  .btn:hover {
+    background-color: rgb(108, 108, 229);
+  }
+  
+}
+
+.btn:active {
+  background-color: rgb(108, 108, 229);
+}
+
+
+
+/*========== LAYOUT ==========*/
+.container {
+  max-width: 1080px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+
+/*=== RESPONSIVE ============================================================================*/
+
+
