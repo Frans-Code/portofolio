@@ -70,7 +70,7 @@ const Sidebar = () => {
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={-50}
+                offset={-40}
                 duration={0}
                 onSetActive={handleSetActive}
               to="about" 
@@ -85,7 +85,7 @@ const Sidebar = () => {
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={-50}
+                offset={-40}
                 duration={0}
                 onSetActive={handleSetActive}
               to="services" 
@@ -100,7 +100,7 @@ const Sidebar = () => {
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={-50}
+                offset={-40}
                 duration={0}
                 onSetActive={handleSetActive}
               to="resume" 
@@ -115,7 +115,7 @@ const Sidebar = () => {
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={-50}
+                offset={-40}
                 duration={0}
                 onSetActive={handleSetActive}
               to="work" 
