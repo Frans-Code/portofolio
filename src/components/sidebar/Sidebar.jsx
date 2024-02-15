@@ -132,7 +132,7 @@ const Sidebar = () => {
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={-200}
+                offset={-300}
                 duration={0}
                 onSetActive={handleSetActive}
               to="blog" 
@@ -147,7 +147,7 @@ const Sidebar = () => {
                 spy={true}
                 smooth={true}
                 hashSpy={true}
-                offset={-200}
+                offset={-300}
                 duration={0}
                 onSetActive={handleSetActive}
               to="contact" 
