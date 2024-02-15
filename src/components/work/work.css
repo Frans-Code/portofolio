@@ -131,6 +131,10 @@
 
 
 @media screen and (max-width: 576px) {
+    .work__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .work__filters {
         column-gap: .675rem;
     }

@@ -6,7 +6,7 @@
     border-right: 1px solid rgba(0, 0, 0, 0.05);
     padding: 2.5rem 1rem;
     width: 110px;
-    height: max-content;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -112,7 +112,7 @@
 
     .show-menu {
         left: 0; 
-        height: max-content;
+        height: 100%;
     }
 }
 

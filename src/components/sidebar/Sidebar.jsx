@@ -163,10 +163,10 @@ const Sidebar = () => {
     </aside>
 
 
-    {/* <div className={Toggle ? "nav__toggle nav__toggle-open" : 
+    <div className={Toggle ? "nav__toggle nav__toggle-open" : 
     "nav__toggle"} onClick={() => showMenu(!Toggle)}>
       <i class="ri-menu-line"></i>
-    </div> */}
+    </div>
     </>
   )
 }

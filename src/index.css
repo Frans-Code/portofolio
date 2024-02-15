@@ -203,8 +203,8 @@ img {
 /*========== LAYOUT ==========*/
 .container {
   max-width: 1080px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: auto;
+  padding-right: auto;
   margin: 0 auto;
 }
 
@@ -214,5 +214,33 @@ img {
 
 
 /*=== RESPONSIVE ============================================================================*/
+/* For large devices */
+@media screen and (max-width: 1024px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 
+}
+
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  
+}
+
+
+/* For medium devices */ 
+@media screen and (max-width: 576px) {
+
+}
+
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+}
 
