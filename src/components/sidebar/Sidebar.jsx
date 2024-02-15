@@ -29,11 +29,13 @@ const Sidebar = () => {
   const handleSetActive = (to) => {
     console.log(to);
   };
+  
+  
 
 
   // ==========  Toggle Menu  ========== //
   const [Toggle, showMenu] = useState(false)
-  const [activeNav, setActiveNav] = useState("#home");
+  // const [activeNav, setActiveNav] = useState("#home");
 
 
   return (
