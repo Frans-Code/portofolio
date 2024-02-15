@@ -85,7 +85,18 @@
 
 @media screen and (max-width: 768px) {
     .pricing__container {
-        grid-template-columns: 310px;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem 1rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .pricing__container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem 1rem;
     }
 
 }
@@ -94,7 +105,8 @@
 
 @media screen and (max-width: 350px) {
     .pricing__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem 1rem;
     }
 
 }
