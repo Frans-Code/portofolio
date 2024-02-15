@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './sidebar.css'
 import { Link } from 'react-scroll'
-import { animateScroll } from 'react-scroll'
+// import { animateScroll } from 'react-scroll'
 // import Logo from '../../assets/logoF.svg'
 // import Logo from '../../assets/logo1.svg'
 
