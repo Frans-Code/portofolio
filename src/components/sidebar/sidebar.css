@@ -125,7 +125,8 @@
     }
 
     .nav__toggle-open {
-        left: 100px;
+        /* left: 100px; */
+        left: 86%;
     }
 
     .aside {

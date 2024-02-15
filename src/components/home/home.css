@@ -379,7 +379,7 @@
     }
 
     .code__image:nth-child(3) {
-        left: -90px;
+        left: -75px;
         top: 80px;
         animation: code3 4s ease-in-out infinite;
     }
@@ -391,6 +391,10 @@
     .s6 {
         left: 26%;
         bottom: 7%;
+    }
+
+    .scroll__down {
+        bottom: 3rem;
     }
 }
 
