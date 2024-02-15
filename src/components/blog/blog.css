@@ -84,6 +84,16 @@
 
 
 
+@media screen and (max-width: 576px) {
+    .blog__container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 1rem;
+    }
+
+}
+
+
+
 @media screen and (max-width: 350px) {
     .blog__container {
         grid-template-columns: repeat(1, 1fr);
